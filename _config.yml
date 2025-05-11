@@ -1,0 +1,30 @@
+# _config.yml - Site configuration
+title: "Ministry Website"               # Placeholder site title
+description: "Welcome to our ministry. This site is under construction."
+lang: "en-US"                           # Language (default English)
+url: "https://<username>.github.io/<repo>"   # Your site URL (update with real repo or domain)
+baseurl: ""                             # Base URL path (empty for user/org GitHub Pages)
+
+# GitHub Pages theme settings
+plugins:
+  - jekyll-remote-theme                 # Enable remote themes on GitHub Pages:contentReference[oaicite:2]{index=2}
+remote_theme: "daviddarnes/alembic@main"  # Use Alembic theme remotely (main branch):contentReference[oaicite:3]{index=3}
+
+# Site navigation (header menu):contentReference[oaicite:4]{index=4}
+navigation_header:
+  - title: "Home"
+    url: "/"            # Home links to the root index.md
+  - title: "About"
+    url: "/about/"
+  - title: "Events"
+    url: "/events/"
+  - title: "Contact"
+    url: "/contact/"
+  - title: "Donate"
+    url: "/donate/"
+
+# (Optional) Footer navigation or social links could be added similarly, but omitted for simplicity.
+# Other optional settings (placeholders):
+email: "contact@example.com"    # Email for contact form (placeholder; can be used with Alembic's Formspree integration)
+# repo: "<user>/<repo>"         # Repo name for GitHub Pages (optional, e.g., for edit links)
+
