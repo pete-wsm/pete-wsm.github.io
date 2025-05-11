@@ -2,7 +2,7 @@
 title: "Ministry Website"               # Placeholder site title
 description: "Welcome to our ministry. This site is under construction."
 lang: "en-US"                           # Language (default English)
-url: "https://<username>.github.io/<repo>"   # Your site URL (update with real repo or domain)
+url: "https://pete-wsm.github.io/pete-wsm.github.io"   # Your site URL (update with real repo or domain)
 baseurl: ""                             # Base URL path (empty for user/org GitHub Pages)
 
 # GitHub Pages theme settings
@@ -26,5 +26,5 @@ navigation_header:
 # (Optional) Footer navigation or social links could be added similarly, but omitted for simplicity.
 # Other optional settings (placeholders):
 email: "contact@example.com"    # Email for contact form (placeholder; can be used with Alembic's Formspree integration)
-# repo: "<user>/<repo>"         # Repo name for GitHub Pages (optional, e.g., for edit links)
+repo: "pete-wsm/pete-wsm.github.io"         # Repo name for GitHub Pages (optional, e.g., for edit links)
 
